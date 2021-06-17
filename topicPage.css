@@ -1,0 +1,96 @@
+body{
+    background-image: url('pictures/pic2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.theQuestion{
+    float: left;
+    margin-left: 4%;
+    margin-right: 40%;
+    width: 55%;
+    border-color:rgb(68, 147, 184);
+    border-radius: 10px;
+    background-color: rgb(68, 147, 184);
+    margin-bottom: 1%;
+    padding: 1% 1%;
+}
+
+.theQuestion h1{
+    color: white;
+    font-weight: bold;
+}
+
+li{
+    list-style-type: none;
+    float: left;
+    margin-left: 4%;
+    margin-right: 40%;
+    width: 55%;
+    border-color:rgb(68, 147, 184);
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 1%;
+    padding: 1% 1%;
+}
+
+.small{
+    display: inline;
+    margin-left: 1%;
+    font-style: italic;
+}
+
+.text{
+    /* font-size: larger; */
+    font-size: 140%;
+}
+
+#noComments{
+    font-size:140%;
+    margin: 2% 4%;
+}
+
+.commentSection{
+    border: 2px solid rgb(68, 147, 184);
+    border-radius: 10px;
+    margin: 3% 5%;
+    margin-left: 15%;
+    margin-right: 5%;
+    width: 80%;
+    display: inline-block;
+    overflow: hidden;
+    background-color: rgb(68, 147, 184);
+}
+.commentSection h2{
+    margin-left:5%;
+}
+.commentSection textarea{
+    margin: 1% 5%;
+    width:90%;
+    padding: 1%;
+}
+.commentSection input[type=submit]{
+    /* font-size: large; */
+    margin: 2% 35%;
+    width: 30%;
+    /* background-color:rgb(169, 192, 222); */
+
+    background: white;
+    color: rgb(28, 96, 128);
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid rgb(28, 96, 128);
+    border-radius: 10px;
+    outline: none;
+    padding: 1%;
+}
+
+.commentSection input[type=submit]:hover{
+    color: white;
+    background: rgb(28, 96, 128);
+}
+
+textarea{
+    font-size: 140%;
+}
